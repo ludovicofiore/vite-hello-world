@@ -1,14 +1,18 @@
 <script>
 import MyComponent from './components/MyComponent.vue'
+import AppHero from './components/AppHero.vue'
 
 export default {
   components: {
+    AppHero,
     MyComponent,
+
   }
 }
 </script>
 
 <template>
+  <AppHero />
 
   <MyComponent />
 </template>
